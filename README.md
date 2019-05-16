@@ -1,11 +1,10 @@
 # Pose-analysis-of-art
 
 - [Project Description](#project-description)
-		-[Tools and Libraries](#Libraries)
- 
-  
-- [About Me](#about-me)
-- [Reference](#reference)
+ - [Tools and Libraries](#libraries)
+
+ - [About Me](#about-me)
+ - [Reference](#reference)
 
 
 ## Project Description
