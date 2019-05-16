@@ -29,7 +29,7 @@ Project Mentors: [Peter Bell](https://uni-erlangen.academia.edu/PeterBell), [Leo
 - **Name**: Ayush Raj
 - **Email**: ayushraj.bit17@gmail.com
 - **Github**: https://github.com/llucifer97
-- **Website**: (coming soon ;-))
+- **Website**: https://llucifer97.github.io/
 - **Resume**: [https://www.linkedin.com/in/ayush-raj97/](https://www.linkedin.com/in/ayush-raj97/)
 
 This Readme will be updated weekly so stay tuned!
