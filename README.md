@@ -1,4 +1,4 @@
-# Pose-analysis-of-art
+## Pose-analysis-of-art
 ![log](media/logo.png)
 - [Project Description](#project-description)
  - [Tools and Libraries](#libraries)
