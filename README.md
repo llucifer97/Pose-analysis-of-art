@@ -28,11 +28,14 @@ Project Mentors: [Peter Bell](https://uni-erlangen.academia.edu/PeterBell), [Leo
 - [ ] Prepare the baseline model for emotion classification
 - [ ] Annotate the data based on emotion.
 - [ ] Build machine learning based model for emotion classification
+- [ ] Documentaion of the work done so far.
+
 
 *Week 9 - 12*
 - [ ] Prepare the baseline model for scene classification
 - [ ] Annotate the data based on scene.
 - [ ] Build machine learning based model for scene classification
+- [ ] Documentaion of the work done so far.
 - [ ] Deploy the project on HPC CWRU.
 
 ### Tools/Libraries
