@@ -24,11 +24,6 @@ URL = ['http://collections.ashmolean.org/collection/browse-9148/per_page/25/offs
 len(URL)
 
 
-# In[ ]:
-
-
-
-
 
 # In[4]:
 
@@ -68,17 +63,6 @@ len(img)
 
 
 img[1]
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
 
 
 
@@ -129,47 +113,5 @@ download_image(img)
 
 
 len(img)
-
-
-# In[ ]:
-
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
 
 

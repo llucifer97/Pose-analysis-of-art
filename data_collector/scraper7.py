@@ -66,15 +66,7 @@ for i in range(60):
             print(s)
         else:
             print('not to be printed')
-    
-
-
-# In[ ]:
-
-
-
-
-
+ 
 # In[83]:
 
 
@@ -142,28 +134,4 @@ makeDir('artmuseum')
 
 
 download_image(img)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 

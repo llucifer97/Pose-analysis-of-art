@@ -28,11 +28,6 @@ data.info()
 data['URL'].tail(6)
 
 
-# In[ ]:
-
-
-
-
 
 # In[9]:
 
@@ -111,13 +106,6 @@ all_images = soup.find_all('a')
 for image in all_images:
     print('https://www.wga.hu' +  image['href'])
 
-
-# In[ ]:
-
-
-
-
-
 # In[31]:
 
 
@@ -168,45 +156,4 @@ def download_image(x):
 
 download_image(il)
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-il[9515]
-
-
-# In[ ]:
-
-
-len(il)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-il[10783]
 

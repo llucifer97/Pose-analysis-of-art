@@ -64,14 +64,6 @@ for image in all_images:
         print(s)
     else:
         print('not to be printed')
-    
-
-
-# In[ ]:
-
-
-
-
 
 # In[11]:
 
@@ -109,58 +101,8 @@ def download_image(x):
             # to a new file in binary mode. 
             f.write(r.content) 
 
-
-# In[ ]:
-
-
-
-
-
 # In[10]:
 
 
 len(img)
-
-
-# In[ ]:
-
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 

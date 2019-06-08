@@ -11,29 +11,10 @@ import requests
 import os
 
 
-# In[28]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
 # In[31]:
 
 
 r = requests.get('http://www.christianiconography.info/') 
-
-
-# In[32]:
-
-
-
-
 
 # In[39]:
 
@@ -77,13 +58,6 @@ for image in arr:
 
 res = requests.get(il[4]) 
 
-
-# In[ ]:
-
-
-
-
-
 # In[10]:
 
 
@@ -119,15 +93,7 @@ for image in arrges:
     sges = 'https://iconographic.warburg.sas.ac.uk/vpc/VPC_search/' +  image['href'] 
     ilges.append(sges)
     #print(sges)
-      
-
-
-# In[ ]:
-
-
-
-
-
+ 
 # In[14]:
 
 
@@ -135,24 +101,6 @@ for image in arrges:
 res = requests.get(il[0])
 antiquesoup = BeautifulSoup(res.content, 'html5lib') 
 antique = antiquesoup.find_all('a')
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
 
 # In[16]:
@@ -270,24 +218,6 @@ def image_full_url():
         print(s)
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[71]:
-
-
-
-
-
 # In[72]:
 
 
@@ -306,16 +236,4 @@ type(s)
 
 s = link.split("/") 
 s[-3] = n
-
-
-# In[75]:
-
-
-s
-
-
-# In[61]:
-
-
-n = '170,'
 

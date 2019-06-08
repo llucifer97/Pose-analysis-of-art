@@ -50,33 +50,3 @@ print(soup.prettify())
 all_images = soup.find_all('img')
 all_images
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
