@@ -10,7 +10,7 @@ From:ubuntu:latest
         export LC_ALL=en_US.UTF-8
 
 %post
-        apt-get update
+        apt-get update	\
         apt-get install python3 \
                         pip3    \
                         
