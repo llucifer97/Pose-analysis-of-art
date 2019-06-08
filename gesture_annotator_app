@@ -16,8 +16,21 @@ From:ubuntu:latest
                         
 # Installing some Python packages that are needed for pre-processing
   apt install -y python3 python3-matplotlib python3-numpy
-  pip3 install pillow numpy opencv-python image sklearn statistics beautifulsoup4 ipaddress ipykernel ipython ipython-genutils ipywidgets jsonschema jupyter jupyter-client jupyter-console jupyter-core natsort notebook bqplot pandas scikit-image scikit-learn seaborn plotly requests                                    
+  pip3 install pillow numpy opencv-python image sklearn statistics beautifulsoup4 ipaddress ipykernel ipython ipython-genutils
+  ipywidgets jsonschema jupyter jupyter-client jupyter-console jupyter-core natsort notebook bqplot pandas scikit-image 
+  scikit-learn seaborn plotly requests                                    
 
+
+
+
+        git clone https://github.com/llucifer97/Pose-analysis-of-art
+
+        cd Pose-analysis-of-art/annotator_tool
+
+%runscript
+
+CMD unset XDG_RUNTIME_DIR && \ 
+jupyter notebook --port=12220 --no-browser
 
 
 
