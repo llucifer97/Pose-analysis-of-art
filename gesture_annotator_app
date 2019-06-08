@@ -16,7 +16,7 @@ From:ubuntu:latest
                         
 # Installing some Python packages that are needed for pre-processing
   apt install -y python3 python3-matplotlib python3-numpy
-  pip3 install pillow numpy opencv-python image sklearn statistics beautifulsoup4 git
+  pip3 install pillow numpy opencv-python image sklearn statistics beautifulsoup4 
 
 
 
