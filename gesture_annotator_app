@@ -12,38 +12,8 @@ From:ubuntu:latest
 %post
 	 apt-get update	
         
-        apt-get install python3 \
-                        pip3    \
+        apt-get install python3 
                         
-
-        pip3 install  opencv-python 	\
-		      image	    	\
-		      ipaddress     	\
-		      ipykernel     	\
-		      ipython	    	\
-		      ipython-genutils  \
-		      ipywidgets	\
-		      jsonschema    	\
-		      jupyter		\	
-		      jupyter-client 	\
-		      jupyter-console	\
-		      jupyter-core  	\  	
-		      matplotlib	\
-		      natsort		\
-		      notebook		\
-		      numpy		\
-		      bqplot		\
-		      pandas		\
-		      scikit-image	\
-		      scikit-learn	\
-		      seaborn		\
-		      sklearn		\
-		      statistics	\
-		      beautifulsoup4	\
-                      requests		\
-		      plotly		\
-
-                            
                         
 
 
