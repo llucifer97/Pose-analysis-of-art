@@ -10,12 +10,15 @@ From:ubuntu:latest
         export LC_ALL=en_US.UTF-8
 
 %post
-        apt-get update	\
-        apt-get install python3 \
-                        pip3    \
+        apt-get update	
+        
+                            
                         
 
-        pip3 install   opencv-python 	\
+	pip3 install git \
+		      python-pip \
+		      python3 \
+		      opencv-python 	\
 		      image	    	\
 		      ipaddress     	\
 		      ipykernel     	\
