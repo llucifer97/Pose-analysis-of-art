@@ -10,49 +10,10 @@ From:ubuntu:latest
         export LC_ALL=en_US.UTF-8
 
 %post
-# apt-get update\	
+	 apt-get update	
         
                             
                         
-
-	pip3 install git \
-		      python-pip \
-		      python3 \
-		      opencv-python 	\
-		      image	    	\
-		      ipaddress     	\
-		      ipykernel     	\
-		      ipython	    	\
-		      ipython-genutils  \
-		      ipywidgets	\
-		      jsonschema    	\
-		      jupyter		\	
-		      jupyter-client 	\
-		      jupyter-console	\
-		      jupyter-core  	\  	
-		      matplotlib	\
-		      natsort		\
-		      notebook		\
-		      numpy		\
-		      bqplot		\
-		      pandas		\
-		      scikit-image	\
-		      scikit-learn	\
-		      seaborn		\
-		      sklearn		\
-		      statistics	\
-		      beautifulsoup4	\
-                      requests		\
-		      plotly		\
-
-
-        git clone https://github.com/llucifer97/Pose-analysis-of-art
-
-        cd Pose-analysis-of-art/annotator_tool
-%runscript
-
-	CMD unset XDG_RUNTIME_DIR && \ 
-	jupyter notebook --port=12220 --no-browser
 
 
 
