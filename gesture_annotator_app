@@ -12,7 +12,7 @@ From:ubuntu:latest
 %post
 	 apt update	
          apt install -y python3-pip
-         apt install git-all            
+         apt install -y git-all            
 
 # Installing some Python packages that are needed for pre-processing
   apt install -y python3 python3-matplotlib python3-numpy
