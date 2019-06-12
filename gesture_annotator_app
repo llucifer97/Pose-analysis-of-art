@@ -24,13 +24,8 @@ From:ubuntu:latest
 
         cd Pose-analysis-of-art/annotator_tool
 
-
 %runscript
-
-
-unset XDG_RUNTIME_DIR && \ 
-jupyter notebook
-
+  jupyter notebook --allow-root "$@"
 
 
 
