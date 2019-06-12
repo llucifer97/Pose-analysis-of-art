@@ -24,10 +24,12 @@ From:ubuntu:latest
 
         cd Pose-analysis-of-art/annotator_tool
 
+
 %runscript
 
-CMD unset XDG_RUNTIME_DIR && \ 
-jupyter notebook --port=12220 --no-browser
+
+unset XDG_RUNTIME_DIR && \ 
+jupyter notebook
 
 
 
