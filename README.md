@@ -18,10 +18,13 @@ Project Mentors: [Peter Bell](https://uni-erlangen.academia.edu/PeterBell), [Leo
 
 ### Goals
 *Week 1 - 4*
-- [ ] Pre-process and annotate the data.
-- [ ] Visualize the data and the different gesture captured from the data.
-- [ ] Build a neural net based model for gesture classification
-- [ ] Documentaion of the work done so far.
+- [x] Gesture annotator app
+  - [x] Generate the keypoints from openpose in json format
+  - [x] Design a Gesture annotator tool
+  - [x] make a functionality to be able to trace the emulator on the image
+  - [x] add functionality to save new updated keypoints
+  - [x] host it online to make the tool usable 
+- [ ] Deploying it on singularity container
 
 
 *Week 5 - 8*
@@ -48,8 +51,6 @@ Project Mentors: [Peter Bell](https://uni-erlangen.academia.edu/PeterBell), [Leo
 7. [Git](#Git)
 8. [Pandas](#Pandas)
 9. [Singularity-Container](#Singularity-Container)
-
-
 
 
 ### About Me
