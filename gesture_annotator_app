@@ -60,7 +60,11 @@ make install
 
 %runscript
   unset XDG_RUNTIME_DIR && \ 
-  jupyter notebook --allow-root "$@"
+  python -m notebook
+  
+  
+  
+ # jupyter notebook --allow-root "$@"
 
 
 
