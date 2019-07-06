@@ -23,8 +23,10 @@ Project Mentors: [Peter Bell](https://uni-erlangen.academia.edu/PeterBell), [Leo
   - [x] Design a Gesture annotator tool
   - [x] make a functionality to be able to trace the emulator on the image
   - [x] add functionality to save new updated keypoints
-  - [x] host it online to make the tool usable 
-- [ ] Deploying it on singularity container
+  - [x] host it online to make the tool usable
+  - [x] Build a Rest API to access generated keypoints from remote server
+  - [x] Build a NOSQL sever database for storing data
+- [x] Deploying it on singularity container
 
 
 *Week 5 - 8*
