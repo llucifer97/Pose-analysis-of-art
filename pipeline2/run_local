@@ -1,0 +1,43 @@
+#!/bin/bash
+cd ~
+cd /home/ayush/Desktop/pipeline2
+read -p "which user data u want to access?: " user
+wget -O urls http://127.0.0.1:5000/$user/urls
+#download the image
+python3 download_img.py
+
+# running the container
+
+#singularity run --bind /home/ayush/Documents/sushil_pose/output:/localdata/src/openpose/output,/home/ayush/Documents/sushil_pose/images:/localdata/src/openpose/examples/media #--writable sushil_pose_2.simg
+#change directory toopenpose
+cd ~ 
+cd /home/ayush/openpose
+#run openpose
+./build/examples/openpose/openpose.bin --image_dir /home/ayush/Desktop/pipeline2/images --write_json /home/ayush/Desktop/pipeline2/api_json --model_pose COCO 
+
+#change directory back to pipeline
+cd ~
+cd /home/ayush/Desktop/pipeline2
+
+# upload the generated keypoints to the database
+python3 upload_data.py
+#wget the pose link
+wget -O poses http://127.0.0.1:8080/poses
+
+python3 parse_data_db.py
+
+python3 json_to_singleton.py
+
+#rename the generated json files
+#python namechanger.py /home/ayush/Documents/sushil_pose/output COCO_val2014_000000000 "" -w
+#python namechanger.py /home/ayush/Documents/sushil_pose/output _keypoints "" -w
+
+jupyter notebook
+
+
+
+
+
+
+
+
