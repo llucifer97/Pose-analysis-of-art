@@ -12,12 +12,10 @@
 
 This is my [Google Summer of Code 2019](https://summerofcode.withgoogle.com/projects/#4647330802827264) Project with [Red Hen Lab](http://www.redhenlab.org/).
 
-The goal of this project is to extract and analyze the Body   ​ Gesture and   ​ Pose of the people,   artwork, and sculptures of the medieval period. Interpreted the scenes depicted in the paintings.   Along with that,   I will also analyze    ​ .the           ​ emotion   depicted   in   the   images.
-
+The goal of this project is to extract and analyze the Body   ​ Gesture and   ​ Pose of the people,   artwork, and sculptures of the medieval period. Interpreted the scenes depicted in the paintings.  For doing so we will be building a annotator tool,which can correct and save the manually  corrected json file.
 Project Mentors: [Peter Bell](https://uni-erlangen.academia.edu/PeterBell), [Leonardo Impett](http://www.biblhertz.it/en/institute/staff/staffdatabase/staff-details/ma-leonardo-impett/).
 
 ### Goals
-*Week 1 - 4*
 - [x] Gesture annotator app
   - [x] Generate the keypoints from openpose in json format
   - [x] Design a Gesture annotator tool
@@ -28,20 +26,6 @@ Project Mentors: [Peter Bell](https://uni-erlangen.academia.edu/PeterBell), [Leo
   - [x] Build a NOSQL sever database for storing data
 - [x] Deploying it on singularity container
 
-
-*Week 5 - 8*
-- [ ] Prepare the baseline model for emotion classification
-- [ ] Annotate the data based on emotion.
-- [ ] Build machine learning based model for emotion classification
-- [ ] Documentaion of the work done so far.
-
-
-*Week 9 - 12*
-- [ ] Prepare the baseline model for scene classification
-- [ ] Annotate the data based on scene.
-- [ ] Build machine learning based model for scene classification
-- [ ] Documentaion of the work done so far.
-- [ ] Deploy the project on HPC CWRU.
 
 ### Tools/Libraries
 1. [Dlib](#dlib)
