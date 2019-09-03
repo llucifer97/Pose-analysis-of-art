@@ -46,6 +46,7 @@ Project Mentors: [Peter Bell](https://uni-erlangen.academia.edu/PeterBell), [Leo
 - **Github**: https://github.com/llucifer97
 - **Website**: https://llucifer97.github.io/
 - **Resume**: [https://www.linkedin.com/in/ayush-raj97/](https://www.linkedin.com/in/ayush-raj97/)
+- **Report**:https://medium.com/@ayushraj.bit17/final-report-redhenlab-gsoc-project-a2f3d54acdb1
 
 This Readme will be updated weekly so stay tuned!
 
