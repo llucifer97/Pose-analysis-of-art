@@ -38,6 +38,8 @@ Project Mentors: [Peter Bell](https://uni-erlangen.academia.edu/PeterBell), [Leo
 8. [Pandas](#Pandas)
 9. [Singularity-Container](#Singularity-Container)
 
+### ARCHITECTURE
+![log](media/archi.jpg)
 
 ### About Me
 
